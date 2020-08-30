@@ -1,0 +1,1 @@
+This is a submission for Free Code Camp's first project of the Responsive Web Design section for building a tribute page. My submisson covers a condensed history of Marvin Minsky. The HTML structure was created in accordance with FCC's project guidelines.  
