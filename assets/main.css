@@ -1,39 +1,113 @@
 /* Google Fonts -----*/
 @import url('https://fonts.googleapis.com/css?family=Notable|Roboto+Slab&display=swap');
 
-body {
-  background: linear-gradient(black, #000099, #66c2ff, #ffcccc, #ffeee6);
-  
-}
-
-#main {
-      
+*  {
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
 }
 
 header {
   background: black;
+  padding-bottom: 1em;
+}
+
+header p {
+  font-family: 'Roboto Slab', serif;
+  font-size: 4em;
+  color: white;
 }
 
 #title {
-    
+  font-family: 'Notable', sans-serif;
+  color: white;
+  /* 3D transformation from https://markdotto.com/playground/3d-text/ */
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+h1 {
+  font-size: 7em;
+}
+
+h3 {
+  font-size: 5em;
+}
+
+#main {
+  background: linear-gradient(to top, steelblue, darkslateblue 90%);    
 }
 
 #img-div {
-
+  background: linear-gradient(to top, steelblue, darkslateblue 90%);
 }
 
 #image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 5%;
+}
 
+img:hover {
+  transform: scale(1.2);
+  box-shadow:  10px 10px 6px firebrick;
+}
+
+figcaption {
+  font-size: 2em;
+  line-height: 2em;
+  font-weight: bold;
 }
 
 #tribute-info {
-  background: black;
+  color: black;
+}
+
+#tribute-info p, li {
+  text-align: justify;
+  font-size: 3em;
+  
 }
 
 #qoute {
-
+  width: 60%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  background: black;
+  color: white;
+  font-size: 7em;
 }
 
 #tribute-link {
 
+}
+
+button {
+  border-radius: 5px;
+  color: orange;
+  background-bcolor: #0F5897;
+  padding: 5px 10px 8px 10px;
+}
+
+button a {
+font-size: 3em;
+}
+
+footer {
+font-size: 2em;
 }
