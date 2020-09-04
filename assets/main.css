@@ -1,9 +1,21 @@
-#main {
+/* Google Fonts -----*/
+@import url('https://fonts.googleapis.com/css?family=Notable|Roboto+Slab&display=swap');
 
+body {
+  background: linear-gradient(black, #000099, #66c2ff, #ffcccc, #ffeee6);
+  
+}
+
+#main {
+      
+}
+
+header {
+  background: black;
 }
 
 #title {
-
+    
 }
 
 #img-div {
@@ -15,7 +27,7 @@
 }
 
 #tribute-info {
-
+  background: black;
 }
 
 #qoute {
@@ -23,5 +35,5 @@
 }
 
 #tribute-link {
-  
+
 }
